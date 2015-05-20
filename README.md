@@ -38,7 +38,8 @@ On peut placer plusieurs sonar sur le robot;
 
 Lancement du Robot
 ------------------
-Pour compiler avec le robot, c'est plutôt simple. Branchez le câble USB sur la board haute du robot (surtout pas celle du bas!) et uploadez votre programme. Un point important est que si vous souhaitez faire avancer le robot, vous ne pouvez pas le faire avec les branchements. Donc si votre programme fait bouger le robot, retirez tout les câbles sinon il n'avancera pas. 
+
+Pour compiler avec le robot, c'est plutôt simple. Branchez le câble USB sur la board haute du robot (surtout pas celle du bas!). Choisissez dans Outils > Port le port usb sur lequel vous avez connecté le robot (type COM4 Arduino). Sélectionnez ensuite dans Outils > Type de carte > Arduino Robot Control. Enfin au niveau des icônes au dessus de l'onglet de votre programme cliquez sur la flêche horizontal et "Téléversez" votre programme. Un point important est que si vous souhaitez faire avancer le robot, vous ne pouvez pas le faire avec les branchements. Donc si votre programme fait bouger le robot, retirez tout les câbles sinon il n'avancera pas. 
 
 Merci à l'administrateur du github de rajouter ces textes dans le README si ça ne te dérange pas :'p 
 Voilà, si des détails manquent ou sont incomplets, n'hésitez pas à compléter cela dans le README du github créé ;') 
